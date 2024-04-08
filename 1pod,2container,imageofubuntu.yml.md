@@ -1,3 +1,4 @@
+```bash
 apiVersion: v1
 kind: Pod
 metadata:
@@ -11,3 +12,4 @@ spec:
       image: ubuntu
       command: ["/bin/bash", "-c", "while true; do echo hi everyone; sleep 5; done"]
   restartPolicy: Never     #Defaults to always
+```
