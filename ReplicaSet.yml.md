@@ -1,3 +1,4 @@
+```bash
 apiVersion: v1
 kind: ReplicaSet
 metadata:
@@ -18,4 +19,4 @@ spec:
         - name: abc
           image: ubuntu
           command: ["/bin/bash", "-c", "while true; do echo hello world; sleep 3; done"]
-
+```
