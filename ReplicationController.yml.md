@@ -1,3 +1,4 @@
+```bash
 apiversion: v1
 kind: ReplicationController
 metadata:
@@ -17,5 +18,4 @@ spec:
           image: nginx
           ports:
           - containersPort: 80
-
-
+```
